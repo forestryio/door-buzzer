@@ -42,7 +42,7 @@ api.post('/call', (req) => {
 
     return new Promise((resolve, reject) => {
         bot.on('start', () => {
-            bot.postMessageToChannel('charlottetown-office', '', data, () => {
+            bot.postMessageToChannel('charlottetown-office', '<!channel> Someone is at the door', data, () => {
                 twiml.say('One moment please.', {voice: 'alice'})
                 twiml.pause({length: 240})
                 twiml.say('Sorry, no one is in the office right now.', {voice: 'alice'})
