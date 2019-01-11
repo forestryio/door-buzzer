@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "door-buzzer-executor",
+    "name": "door-buzzer",
+    "region": "us-east-1"
+  },
+  "api": {
+    "id": "kpib3ihpwe",
+    "module": "app"
+  }
+}
