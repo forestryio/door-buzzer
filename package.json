@@ -11,6 +11,6 @@
   "dependencies": {
     "claudia-api-builder": "^4.1.1",
     "slackbots": "^1.2.0",
-    "twilio": "^3.26.1"
+    "twilio": "^4.10.0"
   }
 }
